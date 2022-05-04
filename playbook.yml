@@ -1,6 +1,8 @@
 - hosts: localhost
+  become: yes
   tasks:
     - name: pull imagem do Docker
       docker_image:
         name: python:3-slim
         source: pull
+
