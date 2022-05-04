@@ -41,7 +41,7 @@ value = aws_instance.terceiroexemplo.public_ip
 description = "o public IP da Instance"
 }
 
-}
+
 resource "aws_instance" "primeiroexemplo2" {
   ami = "ami-07ebfd5b3428b6f4d"
   instance_type = "t2.micro"
